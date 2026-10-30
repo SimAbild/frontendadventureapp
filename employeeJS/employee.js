@@ -42,6 +42,12 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     }
 });
 
+// Demo: udfylder login-felterne med demo-brugeren, så man hurtigt kan logge ind
+document.getElementById("demoFillBtn").addEventListener("click", () => {
+    document.getElementById("email").value = "mads.nielsen@adventure.dk";
+    document.getElementById("password").value = "Nielsen5678";
+});
+
 // --- Dashboard-navigation ---
 
 /** Aktiverer udstyrsoversigten og markerer nav-linket som aktivt. */

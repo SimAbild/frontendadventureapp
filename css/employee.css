@@ -100,6 +100,43 @@
     margin-bottom: 0.5rem;
 }
 
+/* Demo-login boks under login-formularen */
+.demo-info {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #eef4ff;
+    border: 1px solid #c9dafc;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.demo-info p {
+    margin: 0.4rem 0;
+}
+
+.demo-info code {
+    background: white;
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+}
+
+.demo-fill-btn {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: white;
+    color: #1a1a2e;
+    border: 1.5px solid #1a1a2e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.demo-fill-btn:hover {
+    background-color: #1a1a2e;
+    color: white;
+}
+
 .back-link {
     display: block;
     text-align: center;
